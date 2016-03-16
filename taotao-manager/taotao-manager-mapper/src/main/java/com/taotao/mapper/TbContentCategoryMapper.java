@@ -4,7 +4,10 @@ import com.taotao.pojo.TbContentCategory;
 import com.taotao.pojo.TbContentCategoryExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-
+/**
+ * @author tuyuan
+ *
+ */
 public interface TbContentCategoryMapper {
     int countByExample(TbContentCategoryExample example);
 
